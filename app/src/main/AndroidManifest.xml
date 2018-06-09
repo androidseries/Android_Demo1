@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- package：包名 -->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="maskleo.edu.androiddemo1">
+
+    <!--
+       android:icon 应用程序图标
+       android:label 调用 values 文件夹里面的字符串数据
+     -->
 
     <application
         android:allowBackup="true"
@@ -11,11 +19,14 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
+                <!-- 过滤器: 包含有MAIN 运行时首先打开运行的页面 -->
+
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
