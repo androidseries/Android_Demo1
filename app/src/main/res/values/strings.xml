@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Android_Demo1</string>
+    <string name="title1">Hi,This is first title!</string>
     <string name="hello_world">hello world!</string>
     <string name="send">send</string>
+    <string name="textview">TextView</string>
 </resources>
