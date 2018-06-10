@@ -3,4 +3,6 @@
 
 - [安卓官方教程](https://developer.android.com/training/basics/firstapp/)
 
+https://developer.android.com/guide/topics/resources/providing-resources
+
 ## TextView
